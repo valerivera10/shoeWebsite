@@ -20,7 +20,7 @@ nav a, header a {
 
 nav .container {
     max-width: 1150px;
-    padding: 1 em 2 em;
+    padding: 1em 2em;
     margin: 0 auto;
 }
 
@@ -65,7 +65,6 @@ nav form input {
     width: 12em;
     padding: 0.5em 1em;
     border: none;
-    outline: none;
 }
 
 nav form input::placeholder {
@@ -90,6 +89,11 @@ nav form input::placeholder {
     cursor: pointer;
     transition: 0.3s;
     font-size: 1em;
+}
+.nav-btn:hover{
+    background: rgba(
+            255, 255, 255, 0.6
+        );
 }
 
 nav .container .menu-btn {
@@ -122,7 +126,7 @@ header::after {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: traslate(-50%, -50%);
+    transform: translate(-50%, -50%);
     color: rgba(0,0,0,0.2);
     font-size: 17em;
     font-weight: 700;
@@ -157,6 +161,7 @@ header::after {
     line-height: 25px;
     font-size: 0.9em;
     margin: 2em 0 3em 0;  
+    max-width: 45em;
 }
 
 .btn {
